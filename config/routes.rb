@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
 
   root "pages#home"
-  get "woohoo" => "pages#woohoo"
-  get "woohoo2" => "pages#woohoo2"
+  get "page1" => "pages#page1"
+  get "page2" => "pages#page2"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

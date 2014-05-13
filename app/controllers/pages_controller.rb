@@ -1,6 +1,10 @@
 class PagesController < ApplicationController
   def home
   end
-  def page1
+
+  def woohoo
+  end
+
+  def woohoo2
   end
 end
